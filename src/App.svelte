@@ -1,6 +1,6 @@
 <main>
-	<h1>Educate. Donate. Act.</h1>
-	<div id="content">
+<h1>Educate. Donate. Act.</h1>
+<div class="content">
 	We at VandyHacks condemn the systemic racism and oppression gripping our society that senselessly murdered George Floyd, Breonna Taylor, Ahmaud Abery, and countless other Black people. These actions have shocked and saddened us, and we denounce unjust deaths at the hands of institutional racism.
 
 	<br>
@@ -9,12 +9,12 @@
 	<br>
 	<br>
 	
-	Our action comes in the form of self-education, listening, and donations.
+	We do not have the solutions to injustice, but we can help support change-making organizations. Our action comes in the form of self-education, listening, and donations.
 
 	<br>
 	<br>
 	
-	<h1>Educate.</h1>
+	<h2>Educate.</h2>
 	<hr>
 
 	Through self-education, we seek to better understand systemic racism. Some of the resources we are using are:
@@ -39,22 +39,36 @@
 			</a>
 		</li>
 	</ul>
+	
 	<hr>
 	Through listening, we seek to learn from the experiences of members of our community. Please let us know your thoughts on how we can best support the community, and use what platform we have to spread resources and information. We want to continue this conversation and welcome any input on how we can make ourselves better and positively impact our current and future workspaces.
 
 	<br>
 	<br>
 
-	<h1>Donate.</h1>
+	<h2>Donate.</h2>
 	<hr>
 	We are matching donations up to a total of $1,000 to any charity fighting systemic injustice. We have attached a list of charities that we chose as recommendations to you. As a result of restrictions on student organization accounts at Vanderbilt, we will be donating all the matches to the NAACP Legal Defense Fund. We highly encourage anyone who has the means to donate what they can. Please send us the receipt so that VandyHacks can match all of your donations. 
 
 	<br>
 	<br>
-	<h1>Act.</h1>
+
+	Some of the organizations we are donating to include:
+
+	<div class="fund">
+		<h3>NAACP Legal Defense Fund</h3>
+		<div class="summary">
+			The NAACP Legal Defense Fund is a non-profit organization that 
+		</div> 
+		<button>Donate to the NAACP LDF</button>
+	</div>
+	<br>
+	<br>
+	
+	<h2>Act.</h2>
 	<hr>
 	There are many ways that you and I can be allies. Taking action by calling and writing letters to your representatives, participating in peaceful demonstrations, and signing petitions are ways that we can contribute. 
-	</div>
+</div>
 </main>
 
 <style>
@@ -68,13 +82,20 @@
 
 	h1 {
 		color: white;
-		text-transform: uppercase;
 		font-weight: 100;
 	}
 
-	/* #content {
+	.content {
 		text-align: left;
-	} */
+	}
+
+	.fund {
+		margin: 20px 0 0 0;
+	}
+	
+	button {
+		color: white;
+	}
 
 	@media (min-width: 640px) {
 		main {
@@ -84,6 +105,10 @@
 		h1 { 
 			font-size: 3em;
 			font-weight: 100;
+		}
+
+		h2 {
+			font-size: 2em;
 		}
 	}
 </style>
