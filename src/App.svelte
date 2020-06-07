@@ -9,10 +9,13 @@
 	<br>
 	<br>
 	
-	<hr>
 	Our action comes in the form of self-education, listening, and donations.
+
 	<br>
 	<br>
+	
+	<h1>Educate.</h1>
+	<hr>
 
 	Through self-education, we seek to better understand systemic racism. Some of the resources we are using are:
 	<ul>
@@ -41,11 +44,14 @@
 
 	<br>
 	<br>
+
+	<h1>Donate.</h1>
 	<hr>
 	We are matching donations up to a total of $1,000 to any charity fighting systemic injustice. We have attached a list of charities that we chose as recommendations to you. As a result of restrictions on student organization accounts at Vanderbilt, we will be donating all the matches to the NAACP Legal Defense Fund. We highly encourage anyone who has the means to donate what they can. Please send us the receipt so that VandyHacks can match all of your donations. 
 
 	<br>
 	<br>
+	<h1>Act.</h1>
 	<hr>
 	There are many ways that you and I can be allies. Taking action by calling and writing letters to your representatives, participating in peaceful demonstrations, and signing petitions are ways that we can contribute. 
 	</div>
@@ -72,7 +78,7 @@
 
 	@media (min-width: 640px) {
 		main {
-			max-width: 60%;
+			max-width: 50%;
 			font-size: 1.5em;
 		}
 		h1 { 
