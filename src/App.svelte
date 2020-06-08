@@ -5,7 +5,7 @@
 
 	<br>
 	<br>
-	We believe that we must act against these forces, in whatever way that we can. While strange to speak as a hackathon community, we believe we must work to support the organizations and people doing critical work. We believe in equal access to education, resources, and opportunities, especially in tech, and are taking action. 
+	We believe that we must act against these forces, in whatever way that we can. While it is strange to speak as a hackathon organization, we believe we must work to support the organizations and people doing critical work. We believe in equal access to education, resources, and opportunities, especially in tech, and are taking action. 
 	<br>
 	<br>
 	
@@ -139,6 +139,7 @@
 		padding: 1em;
 		max-width: 240px;
 		margin: 0 auto;
+		font-family: "Lato";
 	}
 
 	h1 {
