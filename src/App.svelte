@@ -1,3 +1,50 @@
+<script>
+	// Educational resources
+	let resources = [
+		{description: "Collated resources on Black Lives Matter and anti-racism", link: "https://blacklivesmatters.carrd.co/#educate"},
+		{description: "8 Ways to Make Real Progress on Tech's Diversity Problem", link: "https://www.fastcompany.com/40528096/8-ways-to-make-real-progress-on-techs-diversity-problem"},
+		{description: "A view into being a Black employee at a tech company", link: "https://medium.com/@marksluckie/what-it-s-actually-like-to-be-a-black-employee-at-a-tech-company-e32bb222818b"},
+		{description: "Report on Black and Hispanic underrepresentation in tech", link: "https://www.brookings.edu/research/black-and-hispanic-underrepresentation-in-tech-its-time-to-change-the-equation/"}
+	]
+
+	// JSON object that gets mapped to fund items
+	let funds = [
+		{ title: "NAACP Legal Defense Fund", 
+		summary: "The NAACP Legal Defense Fund is a non-profit organization that seeks \"structural changes to expand democracy, eliminate disparities, and achieve racial justice in a society that fulfills the promise of equality for all Americans.\"", 
+		url: "https://www.naacpldf.org", 
+		buttonText: "Donate to the NAACP LDF"},
+		{ title: "Campaign Zero", 
+		summary: "Non-profit seeking data-driven policy solutions from local, state, and federal lawmakers to take immediate action to end police violence.", 
+		url: "https://www.joincampaignzero.org/", 
+		buttonText: "Donate to Campaign Zero"},
+		{ title: "Thurgood Marshall College Fund", 
+		summary: "Non-profit that supports and provides opportunities for the Black College Community \"through scholarships, capacity builder and research initiatives, innovative programs, and strategic partnerships.\"", 
+		url: "https://www.tmcf.org", 
+		buttonText: "Code 2040"},
+		{ title: "Thurgood Marshall College Fund", 
+		summary: "Non-profit \"activating, connecting, and mobilizing the largest racial equity community in tech to dismantle the structural barriers that prevent the full participation and leadership of Black and Latinx technologists in the innovation economy.\"", 
+		url: "http://www.code2040.org/", 
+		buttonText: "Donate to Code 2040"},
+		{ title: "My Brother's Keeper Alliance", 
+		summary: "Focused on building safe and supportive communities for boys and young men of color where they feel valued and have clear pathways to opportunity and success.", 
+		url: "https://www.obama.org/mbka/", 
+		buttonText: "Donate to MBKA"},
+		{ title: "Black Girls Code", 
+		summary: "Providing coding lessons to young girls from underrepresented communities by reaching out to the community through workshops and after school programs. Black Girls CODE's ultimate goal is to train 1 million girls by 2040.", 
+		url: "https://www.blackgirlscode.com", 
+		buttonText: "Donate to Black Girls Code"},
+		{ title: "Black Girls Code", 
+		summary: "Established to cover funeral and burial expenses, mental and grief counseling, lodging and travel for all court proceedings, and to assist the Floyd family in the days to come as they continue to seek justice for George.", 
+		url: "https://www.gofundme.com/f/georgefloyd", 
+		buttonText: "Donate to the Floyd Family"},
+		{ title: "NAACP", 
+		summary: "The mission of the National Association for the Advancement of Colored People (NAACP) is to secure the political, educational, social, and economic equality of rights in order to eliminate race-based discrimination and ensure the health and well-being of all persons.", 
+		url: "https://www.naacp.org", 
+		buttonText: "Donate to the NAACP"},
+
+	]
+</script>
+
 <main>
 <h1>Educate. Donate. Act.</h1>
 <div class="content">
@@ -19,25 +66,13 @@
 
 	Through self-education, we seek to better understand systemic racism. Some of the resources we are using are:
 	<ul>
+	{#each resources as resource}
 		<li>
-			<a href="https://blacklivesmatters.carrd.co/#educate" target="_blank">
-				Collated resources on Black Lives Matter and anti-racism
+			<a href={resource.link} target="_blank">
+				{resource.description}
 			</a>
 		</li>
-		<li>
-			<a href="https://www.fastcompany.com/40528096/8-ways-to-make-real-progress-on-techs-diversity-problem" target="_blank">
-				8 Ways to Make Real Progress on Tech's Diversity Problem</a> 
-			</li>
-		<li>
-			<a href="https://medium.com/@marksluckie/what-it-s-actually-like-to-be-a-black-employee-at-a-tech-company-e32bb222818b" target="_blank">
-				A view into being a Black employee at a tech company
-			</a>
-		</li>
-		<li>
-			<a href="https://www.brookings.edu/research/black-and-hispanic-underrepresentation-in-tech-its-time-to-change-the-equation/" target="_blank">
-				Report on Black and Hispanic underrepresentation in tech
-			</a>
-		</li>
+	{/each}
 	</ul>
 
 	<hr>
@@ -54,70 +89,15 @@
 	<br>
 
 	Some of the organizations our members individually are donating to include:
-
+	{#each funds as fund}
 	<div class="fund">
-		<h3>NAACP Legal Defense Fund</h3>
+		<h3>{fund.title}</h3>
 		<div class="summary">
-			The NAACP Legal Defense Fund is a non-profit organization that seeks "structural changes to expand democracy, eliminate disparities, and achieve racial justice in a society that fulfills the promise of equality for all Americans."
+			{fund.summary}
 		</div> 
-		<a class="button button-primary" href="https://www.naacpldf.org/" target="_blank">Donate to the NAACP LDF</a>
+		<a class="button button-primary" href={fund.url} target="_blank">{fund.buttonText}</a>
 	</div>
-
-	<div class="fund">
-		<h3>Campaign Zero</h3>
-		<div class="summary">
-			Non-profit seeking data-driven policy solutions from local, state, and federal lawmakers to take immediate action to end police violence.
-		</div> 
-		<a class="button button-primary" href="https://www.joincampaignzero.org/" target="_blank">Donate to Campaign Zero</a>
-	</div>
-
-	<div class="fund">
-		<h3>Thurgood Marshall College Fund</h3>
-		<div class="summary">
-			Non-profit that supports and provides opportunities for the Black College Community "through scholarships, capacity builder and research initiatives, innovative programs, and strategic partnerships."
-		</div> 
-		<a class="button button-primary" href="https://www.tmcf.org" target="_blank">Donate to the TMCF</a>
-	</div>
-
-	<div class="fund">
-		<h3>Code 2040</h3>
-		<div class="summary">
-			Non-profit "activating, connecting, and mobilizing the largest racial equity community in tech to dismantle the structural barriers that prevent the full participation and leadership of Black and Latinx technologists in the innovation economy."
-		</div> 
-		<a class="button button-primary" href="http://www.code2040.org/" target="_blank">Donate to Code 2040</a>
-	</div>
-
-	<div class="fund">
-		<h3>My Brother's Keeper Alliance</h3>
-		<div class="summary">
-			Focused on building safe and supportive communities for boys and young men of color where they feel valued and have clear pathways to opportunity and success.
-		</div> 
-		<a class="button button-primary" href="https://www.obama.org/mbka/" target="_blank">Donate to MBKA</a>
-	</div>
-
-	<div class="fund">
-		<h3>Black Girls Code</h3>
-		<div class="summary">
-			Providing coding lessons to young girls from underrepresented communities by reaching out to the community through workshops and after school programs. Black Girls CODE's ultimate goal is to train 1 million girls by 2040.
-		</div> 
-		<a class="button button-primary" href="https://www.blackgirlscode.com" target="_blank">Donate to Black Girls Code</a>
-	</div>
-
-	<div class="fund">
-		<h3>Official George Floyd Fund</h3>
-		<div class="summary">
-			Established to cover funeral and burial expenses, mental and grief counseling, lodging and travel for all court proceedings, and to assist the Floyd family in the days to come as they continue to seek justice for George.
-		</div> 
-		<a class="button button-primary" href="https://www.gofundme.com/f/georgefloyd" target="_blank">Donate to the Floyd Family</a>
-	</div>
-
-	<div class="fund">
-		<h3>NAACP</h3>
-		<div class="summary">
-			The mission of the National Association for the Advancement of Colored People (NAACP) is to secure the political, educational, social, and economic equality of rights in order to eliminate race-based discrimination and ensure the health and well-being of all persons.
-		</div> 
-		<a class="button button-primary" href="https://www.naacp.org" target="_blank">Donate to the NAACP</a>
-	</div>
+	{/each}
 
 	<br>
 	<br>
