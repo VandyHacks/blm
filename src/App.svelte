@@ -108,7 +108,7 @@
 		<div class="summary">
 			Established to cover funeral and burial expenses, mental and grief counseling, lodging and travel for all court proceedings, and to assist the Floyd family in the days to come as they continue to seek justice for George.
 		</div> 
-		<a class="button button-primary" href="https://www.gofundme.com/f/georgefloyd" target="_blank">Donate to the George Floyd Fund</a>
+		<a class="button button-primary" href="https://www.gofundme.com/f/georgefloyd" target="_blank">Donate to the Floyd Family</a>
 	</div>
 
 	<div class="fund">
