@@ -4,7 +4,8 @@
 		{description: "Collated resources on Black Lives Matter and anti-racism", link: "https://blacklivesmatters.carrd.co/#educate"},
 		{description: "8 Ways to Make Real Progress on Tech's Diversity Problem", link: "https://www.fastcompany.com/40528096/8-ways-to-make-real-progress-on-techs-diversity-problem"},
 		{description: "A view into being a Black employee at a tech company", link: "https://medium.com/@marksluckie/what-it-s-actually-like-to-be-a-black-employee-at-a-tech-company-e32bb222818b"},
-		{description: "Report on Black and Hispanic underrepresentation in tech", link: "https://www.brookings.edu/research/black-and-hispanic-underrepresentation-in-tech-its-time-to-change-the-equation/"}
+		{description: "Report on Black and Hispanic underrepresentation in tech", link: "https://www.brookings.edu/research/black-and-hispanic-underrepresentation-in-tech-its-time-to-change-the-equation/"},
+		{description: "A Google Doc of Resources on \"Coding it Forward\"", link: "https://docs.google.com/spreadsheets/d/1exHZwrXGaeSRxRZl-h6A4hKn7WiqGng1RrVzN6777MI/edit#gid=894870016"}
 	]
 
 	// JSON object that gets mapped to fund items
@@ -41,7 +42,6 @@
 		summary: "The mission of the National Association for the Advancement of Colored People (NAACP) is to secure the political, educational, social, and economic equality of rights in order to eliminate race-based discrimination and ensure the health and well-being of all persons.", 
 		url: "https://www.naacp.org", 
 		buttonText: "Donate to the NAACP"},
-
 	]
 </script>
 

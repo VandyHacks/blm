@@ -1,5 +1,7 @@
 # blm
 
+Our website on how VandyHacks is taking action on Black Lives Matter.
+
 _Looking for a shareable component template? Go here --> [sveltejs/component-template](https://github.com/sveltejs/component-template)_
 
 ---
